@@ -9,6 +9,10 @@ WORKDIR /app
 # 4. npm install => Install dependencies
 # 5. npm start => Start development server. Edit source code in src folder and see it change in browser
 # 6. npm run build => Build the application for production. This will create a prod-ready build of your application in the `build` folder. 
+
+# Styling
+# 1. To add 'style-components' to package.json: npm install styled-components --save 
+
 COPY package*.json ./
 
 # Install dependencies
